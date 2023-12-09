@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "drf-viewsets-and-generics-24-1"
+version = "0.1.0"
+description = ""
+authors = ["Gubin Gennady"]
+readme = "README.md"
+packages = [{include = "drf_viewsets_and_generics_24"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+djangorestframework = "^3.14.0"
+django = "^5.0"
+psycopg2 = "^2.9.9"
+psycopg2-binary = "^2.9.9"
+pillow = "^10.1.0"
+ipython = "^8.18.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
